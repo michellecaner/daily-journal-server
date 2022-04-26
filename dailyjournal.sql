@@ -34,3 +34,5 @@ INSERT INTO 'Entries' VALUES (null, "Javascript", "Dealing with Date is terrible
 DROP TABLE 'Entries_2';
 
 ALTER TABLE 'Entries' RENAME COLUMN moodId TO mood_id;
+
+SELECT * FROM 'Mood'
